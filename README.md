@@ -28,24 +28,17 @@ I was unable to find correlations between deer harvest numbers and Lyme disease 
 4. **Calculate incidence rates per 1,000,000 people of tickborne diseases in Maryland during time period and compare to national average.** Though Though Lyme disease data is available through 2023, comparisons of Lyme incidence rates with other tickborne diseases are limited to 2022, since that is the most recent year for which data is available for the other diseases. 
 
 
-## Skills Used 
-1. Filtering and Querying 
-2. Close Reading 
-3. Removing duplicates, deciding what to drop, deciding what to combine, finding efficient ways to filter and drop rows (str.contains)
-4. Aaron color 
+## Skills Used and Key Learning Moments
+1. **Cleaning and reshaping**: I admittedly was more dependent on AI that I would've liked to be. I am, however, starting to slowly understand the differences between .groupby and pivoting. Also, a few times I thought my data was clean until I tried extracting certain values or manipulating the shape. For instance, it took me a while to realize that a column like "Harvest_Total_2015_16" was esentially joining two values instead of keeping years and harvest totals in separate columns. 
+2. **Scraping**: I learned about user agent libraries that generate random user agent IDs for you. I also used Natural PDF to scrape tables from reports. 
+3. **Chart selection and design**: I iniitally didn't realize I would have to reshape my data in order for certain charts to look the way I wanted them to. It also took me several iterations to decide which charts felt useful and which ones felt like just a dump of information. I changed my charts and tables several times while drafting. In terms of design, I was mostly focused on color for this project and used color generators, as well as AI to generate complementary hex codes. 
 
 ## Key Learning Moments 
-1. Question kept changing 
-2. More specific questions 
-2. .groupby and .pivot 
-3. combining headers 
-4. step-by-step problem solving 
-5. using ai: color schemes, in dadition to color generator
-6. knowing what to cut, including graphics and charts that i had spent time making and time filtering and reformatting the data for example: reporte ddeer harvests 
-7. file hygeinge 
-8. Record why certain time periods were chosen and keep track. REalizing as I wriete this everythign starts from 2014 except lyme incidence rate, which i began at 2015
+1. Drawing correlations is difficult! It felt kind of frustrating to realize that I wouldn't be able to answer the question I wanted to answer with the data I had.  
+2. I felt limited in my ability to analyze because I don't have sufficient understanding of core functions like .groupby, .pivot, and .pivot_table. 
+3. I realized that I am a very messy and shotgun problem solver. I do leave a lot of comments for myself (I do this a lot when drafting while writing), which helped me a lot when I had to revisit earlier parts of my code. I also appreciated Sandhya's advice to keep a data diary. But there were several moments when I would've solved a problem more quickly by pausing to read documentation and watch more tutorials. 
+4. File hygiene, file naming, and variable naming felt overwhelming. But again, I appreciated Sandhya's advice to keep raw copies, processed copies, and to follow naming conventions.  
 
 ## What I Wanted to Do 
-1. home range map 
-2. incidence rate by county on changing chorpleth map 
-2. draw correlations that I think are hard to do in practice and actully rely on a lot of assumptions 
+1. I read a study that measured the home range of deer in a suburban neighborhood, and I would've liked to try to map that home range. I already felt overwhelmed with data scraping and cleaning though, and I didn't have the mental energy to practice using the mapping software that Aaron had introduced to us. 
+2. Related, I was interested in showing the change in Lyme incidence rates by county in Maryland on a changing map. I didn't want to make 10 maps though, and I had difficulty getting my incidence rate values to show up on a choropleth map.  
