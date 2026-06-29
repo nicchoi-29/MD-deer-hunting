@@ -21,9 +21,13 @@ I was unable to find correlations between deer harvest numbers and Lyme disease 
 ## Overview of Data Analysis Process 
 1. **Identify percentages and trends in the number of harvested deer before re-establishment of Suburban Deer Management Zone (2020) and after**. I chose to look at data from a 10-year period that covered five years before the zone was re-established and five years after. Data from the 2014-2015 hunting season was included in the 2015-2016 report, so I chose to keep that in. 
 
-2. **Identify percentages and trends in the number of female deer harvested during same time period.** After learning that encouraging the harvests of female deer was part of the state's population management strategy, I wanted to see if there was any trend or pattern in the number of female deer over time.  
+2. **Identify percentages and trends in the number of female deer harvested during same time period.** After learning that encouraging the harvests of female deer was part of the state's population management strategy, I wanted to see if there was any trend or pattern in the number of female deer harvests over time.  
 
-3. 
+3. **Compare antlered to antlerless harvests by hunting regions over time period.** I initially compared these numbers based on county, but I ended up with a long dataset since there are 23 different counties. Because hunting is regulated across three regions and zones (Region A, Region B, and Suburban Deer Management Zone that's in Region B) I decided that those zone levels were the most useful for comparsion rather than granular county levels. 
+
+4. **Calculate incidence rates per 1,000,000 people of tickborne diseases in Maryland during time period and compare to national average.** Though Though Lyme disease data is available through 2023, comparisons of Lyme incidence rates with other tickborne diseases are limited to 2022, since that is the most recent year for which data is available for the other diseases. 
+
+* **Calculations**: lyme_avg_16 = (cases_sum_16/pop_sum_16)*1000000
 
 ## Skills Used 
 1. Filtering and Querying 
@@ -40,6 +44,7 @@ I was unable to find correlations between deer harvest numbers and Lyme disease 
 5. using ai: color schemes, in dadition to color generator
 6. knowing what to cut, including graphics and charts that i had spent time making and time filtering and reformatting the data for example: reporte ddeer harvests 
 7. file hygeinge 
+8. Record why certain time periods were chosen and keep track. REalizing as I wriete this everythign starts from 2014 except lyme incidence rate, which i began at 2015
 
 ## What I Wanted to Do 
 1. home range map 
