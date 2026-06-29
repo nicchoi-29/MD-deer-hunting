@@ -27,7 +27,6 @@ I was unable to find correlations between deer harvest numbers and Lyme disease 
 
 4. **Calculate incidence rates per 1,000,000 people of tickborne diseases in Maryland during time period and compare to national average.** Though Though Lyme disease data is available through 2023, comparisons of Lyme incidence rates with other tickborne diseases are limited to 2022, since that is the most recent year for which data is available for the other diseases. 
 
-* **Calculations**: lyme_avg_16 = (cases_sum_16/pop_sum_16)*1000000
 
 ## Skills Used 
 1. Filtering and Querying 
