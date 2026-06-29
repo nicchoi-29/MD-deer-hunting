@@ -41,4 +41,4 @@ I was unable to find correlations between deer harvest numbers and Lyme disease 
 
 ## What I Wanted to Do 
 1. I read a study that measured the home range of deer in a suburban neighborhood, and I would've liked to try to map that home range. I already felt overwhelmed with data scraping and cleaning though, and I didn't have the mental energy to practice using the mapping software that Aaron had introduced to us. 
-2. Related, I was interested in showing the change in Lyme incidence rates by county in Maryland on a changing map. I didn't want to make 10 maps though, and I had difficulty getting my incidence rate values to show up on a choropleth map.  
+2. Related, I was interested in showing the change in Lyme incidence rates by county in Maryland on a changing map. I didn't want to make 10 maps though, and I had difficulty getting my incidence rate values to show up on a choropleth map while also displaying county names. I think I woudld've had to use a different base map, which would've created a longer and more involved workflow.   
