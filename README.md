@@ -18,11 +18,30 @@ I was unable to find correlations between deer harvest numbers and Lyme disease 
 
 4. I contacted the Department of Natural Resources with some clarification questions, including inconsistencies in reported deer population estimates. The game data and research project leader explained that a different biologist likely rounded figures in earlier reports. He then sent me population estimates from 2015-2024 according to his latest models.
 
-
-
 ## Overview of Data Analysis Process 
+1. **Identify percentages and trends in the number of harvested deer before re-establishment of Suburban Deer Management Zone (2020) and after**. I chose to look at data from a 10-year period that covered five years before the zone was re-established and five years after. Data from the 2014-2015 hunting season was included in the 2015-2016 report, so I chose to keep that in. 
 
-## Skills Used and Key Learning Moments 
+2. **Identify percentages and trends in the number of female deer harvested during same time period.** After learning that encouraging the harvests of female deer was part of the state's population management strategy, I wanted to see if there was any trend or pattern in the number of female deer over time.  
+
+3. 
+
+## Skills Used 
+1. Filtering and Querying 
+2. Close Reading 
+3. Removing duplicates, deciding what to drop, deciding what to combine, finding efficient ways to filter and drop rows (str.contains)
+4. Aaron color 
+
+## Key Learning Moments 
+1. Question kept changing 
+2. More specific questions 
+2. .groupby and .pivot 
+3. combining headers 
+4. step-by-step problem solving 
+5. using ai: color schemes, in dadition to color generator
+6. knowing what to cut, including graphics and charts that i had spent time making and time filtering and reformatting the data for example: reporte ddeer harvests 
+7. file hygeinge 
 
 ## What I Wanted to Do 
-
+1. home range map 
+2. incidence rate by county on changing chorpleth map 
+2. draw correlations that I think are hard to do in practice and actully rely on a lot of assumptions 
