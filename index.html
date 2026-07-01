@@ -319,49 +319,58 @@
     <p>Now, let's look at incidence rates for Lyme in each county, based on reported cases up until 2023, which is the year for which 
         the most recent data is available.</p>
 
-<!DOCTYPE html>
-<html>
+
+
+
+   <!DOCTYPE html>
+<html lang="en">
 <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Datawrapper Grid</title>
+
 <style>
 .grid {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 20px;
 }
 
-.grid iframe {
-    width: 100% !important;
-    min-width: 0 !important;   /* Override Datawrapper's min-width */
+.chart iframe {
+    width: 100%;
     border: none;
 }
 </style>
 </head>
+
 <body>
 
 <div class="grid">
 
-<iframe title="2014 Lyme Incidence Rate in MD by County" aria-label="Choropleth map" id="datawrapper-chart-lyByU" src="https://datawrapper.dwcdn.net/lyByU/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="452" data-external="1"></iframe><script type="text/javascript">(function(){function e(){window.addEventListener(`message`,function(e){if(e.data[`datawrapper-height`]!==void 0){var t=document.querySelectorAll(`iframe`);for(var n in e.data[`datawrapper-height`])for(var r=0,i;i=t[r];r++)if(i.contentWindow===e.source){var a=e.data[`datawrapper-height`][n]+`px`;i.style.height=a}}})}e()})();</script>
+    <div class="chart">
+        <iframe title="2014 Lyme Incidence Rate in MD by County" aria-label="Choropleth map" id="datawrapper-chart-lyByU" src="https://datawrapper.dwcdn.net/lyByU/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="452" data-external="1"></iframe><script type="text/javascript">(function(){function e(){window.addEventListener(`message`,function(e){if(e.data[`datawrapper-height`]!==void 0){var t=document.querySelectorAll(`iframe`);for(var n in e.data[`datawrapper-height`])for(var r=0,i;i=t[r];r++)if(i.contentWindow===e.source){var a=e.data[`datawrapper-height`][n]+`px`;i.style.height=a}}})}e()})();</script>
+    </div>
 
-<iframe title="2015 Lyme Incidence Rate in MD by County" aria-label="Choropleth map" id="datawrapper-chart-T2yxT" src="https://datawrapper.dwcdn.net/T2yxT/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="452" data-external="1"></iframe><script type="text/javascript">(function(){function e(){window.addEventListener(`message`,function(e){if(e.data[`datawrapper-height`]!==void 0){var t=document.querySelectorAll(`iframe`);for(var n in e.data[`datawrapper-height`])for(var r=0,i;i=t[r];r++)if(i.contentWindow===e.source){var a=e.data[`datawrapper-height`][n]+`px`;i.style.height=a}}})}e()})();</script>
+    <div class="chart">
+        <iframe title="2015 Lyme Incidence Rate in MD by County" aria-label="Choropleth map" id="datawrapper-chart-T2yxT" src="https://datawrapper.dwcdn.net/T2yxT/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="452" data-external="1"></iframe><script type="text/javascript">(function(){function e(){window.addEventListener(`message`,function(e){if(e.data[`datawrapper-height`]!==void 0){var t=document.querySelectorAll(`iframe`);for(var n in e.data[`datawrapper-height`])for(var r=0,i;i=t[r];r++)if(i.contentWindow===e.source){var a=e.data[`datawrapper-height`][n]+`px`;i.style.height=a}}})}e()})();</script>
+    </div>
+
+    <div class="chart">
+        <iframe
+            title="Chart 3"
+            src="https://datawrapper.dwcdn.net/ZZZZZ/"
+            scrolling="no"
+            frameborder="0"
+            style="width:0;min-width:100% !important;border:none;"
+            height="400">
+        </iframe>
+    </div>
+
 
 </div>
 
-<script>
-window.addEventListener("message", function(e) {
-    if (typeof e.data["datawrapper-height"] !== "undefined") {
-        document.querySelectorAll("iframe").forEach(function(iframe) {
-            if (iframe.contentWindow === e.source) {
-                for (const id in e.data["datawrapper-height"]) {
-                    iframe.style.height = e.data["datawrapper-height"][id] + "px";
-                }
-            }
-        });
-    }
-});
-</script>
-
 </body>
-</html>
+</html>     
 
 
     <div class="header">
