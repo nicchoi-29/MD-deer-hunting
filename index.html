@@ -25,6 +25,34 @@
             margin: auto;
         }
 
+        .full-width {
+            width: 100%;
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 20px;
+            box-sizing: border-box;
+        }   
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 24px;
+            align-items: start;
+        }
+
+        .chart iframe {
+            width: 100%;
+            min-width: 100% !important;
+            border: none;
+            display: block;
+        }
+
+        @media (max-width: 900px) {
+            .grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
         .header {
             padding: 3em 0;
         }
@@ -320,54 +348,22 @@
         the most recent data is available.</p>
 
 
+</div> 
 
-
-   <!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Datawrapper Grid</title>
-
-<style>
-.grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-    gap: 20px;
-}
-
-.chart iframe {
-    width: 100%;
-    border: none;
-}
-</style>
-
-<div class="grid">
+<div class="full-width">
+    <div class="grid">
 
     <div class="chart">
         <iframe title="2014 Lyme Incidence Rate in MD by County" aria-label="Choropleth map" id="datawrapper-chart-lyByU" src="https://datawrapper.dwcdn.net/lyByU/1/" scrolling="no" frameborder="0" style="width:0; min-width:100% !important;" height="452" data-external="1"></iframe>
     </div>
 
     <div class="chart">
-        <iframe title="2015 Lyme Incidence Rate in MD by County" aria-label="Choropleth map" id="datawrapper-chart-T2yxT" src="https://datawrapper.dwcdn.net/T2yxT/1/" scrolling="no" style="width:0; min-width:100% !important;" frameborder="0" height="452" data-external="1"></iframe>
+        <iframe title="2015 Lyme Incidence Rate in MD by County" aria-label="Choropleth map" id="datawrapper-chart-T2yxT" src="https://datawrapper.dwcdn.net/T2yxT/1/" scrolling="no" frameborder="0" style="width:0; min-width:100% !important;" height="452" data-external="1"></iframe>
+    </div>
 </div>
 
 </div>
-<script>
-window.addEventListener("message", function(e) {
-  if (e.data["datawrapper-height"]) {
-    const iframes = document.querySelectorAll("iframe");
-    for (const chartId in e.data["datawrapper-height"]) {
-      for (const iframe of iframes) {
-        if (iframe.contentWindow === e.source) {
-          iframe.style.height = e.data["datawrapper-height"][chartId] + "px";
-        }
-      }
-    }
-  }
-});
-</script>
-     
+
 
     <div class="header">
         <h2>Learnings</h2>
